@@ -8,8 +8,7 @@
     "develop": "gulp",
     "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint '{./source/**/*.js,./*.js}'; exit 0",
-    "postinstall": "gulp build"
+    "lint": "eslint '{./source/**/*.js,./*.js}'; exit 0"
   },
   "dependencies": {
     "express": "^4.14.0",
