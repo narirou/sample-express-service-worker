@@ -1,0 +1,33 @@
+{
+  "author": "narirou <narirou.github@gmail.com>",
+  "name": "test-express-service-worker",
+  "description": "Test Project using express-service",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node --harmony server/run.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint '{./source/**/*.js,./*.js}'; exit 0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-service": "^1.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "browserify": "^13.1.1",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-develop-server": "^0.5.2",
+    "gulp-plumber": "^1.1.0",
+    "through2": "^2.0.3"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0"
+  }
+}
