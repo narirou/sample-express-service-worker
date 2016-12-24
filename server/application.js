@@ -8,6 +8,7 @@ const app = express();
 // 静的ファイルはサーバーからのアクセスに限定する
 // express.staticが動作しないため
 if (global.process) {
+    app.use('/', express.static(`${__dirname}/../images`));
     app.use('/', express.static(`${__dirname}/../client`));
 }
 
