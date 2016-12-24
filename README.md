@@ -13,6 +13,6 @@ npm install
 ### Development
 
 ```sh
-npm start
+npm run develop
 # then open http://localhost:3333/
 ```
